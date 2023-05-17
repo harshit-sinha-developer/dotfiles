@@ -12,3 +12,4 @@ git-use-commit() {
   git commit --fixup=$1
   git rebase --interactive --autosquash $1^
 }
+alias gitstu="git stash --keep-index -u"
