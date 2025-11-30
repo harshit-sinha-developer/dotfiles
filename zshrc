@@ -13,4 +13,3 @@ git-use-commit() {
   git rebase --interactive --autosquash $1^
 }
 alias gitstu="git stash --keep-index -u"
-alias update="dev stop && dev up && dev start"
